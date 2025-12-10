@@ -9,6 +9,14 @@ VIDEO_DATASET_PATH = Dataset(
 COMMENTS_DATASET_PATH = Dataset(
     f"{os.path.dirname(os.path.abspath(__file__))}/data/comment_data.csv"
 )
+PP_VIDEO_DATASET_PATH = Dataset(
+    f"{os.path.dirname(os.path.abspath(__file__))}/data/pp_video_data.csv"
+)
+PP_COMMENTS_DATASET_PATH = Dataset(
+    f"{os.path.dirname(os.path.abspath(__file__))}/data/pp_comment_data.csv"
+)
+
+
 api_key = "AIzaSyAxs7uzwcGOqJftvR_p9gqZ2nT6KmwtKj4"
 channel_ids = [
     "UCoOae5nYA7VqaXzerajD0lg",
